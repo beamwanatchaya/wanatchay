@@ -22,6 +22,16 @@ def index(req):
         print(services)
         return render(req, 'myapp/index.html', { 'services': services })
 
+def main(req):
+    return render(req, 'myapp/main.html')
+
+def gall(req):
+    return render(req, 'myapp/gall.html')
+
+def second(req):
+    return render(req, 'myapp/second.html')
+
+
 
 
 

@@ -19,6 +19,15 @@ from myapp import views as appview
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', appview.index),
-    path('index' , appview.index), 
+    path('', appview.main),
+    path('index' , appview.index),
+    path('main' , appview.main),
+    path('gall' , appview.gall),
+    path('second' , appview.second),
+   
+
+    # path('main' , appview.main),
 ]
+
+
+
